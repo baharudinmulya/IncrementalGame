@@ -132,7 +132,7 @@ public class ResourceController : MonoBehaviour
         AudioUpgrade.Play();
  
 
-        ResourceUpgradeCost.text = $"Upgrade Cost\n{ GetUpgradeCost () }";
+        ResourceUpgradeCost.text = $"Upgrade Price\n{ GetUpgradeCost () }";
 
         ResourceDescription.text = $"{ _config.Name } Lv. { _level }\n+{ GetOutput ().ToString ("0") }";
 
